@@ -30,7 +30,7 @@ h1 {
 }
 
 .carrusellll {
-
+/**/
 }
 
 .whatapp__fixed {
@@ -58,11 +58,17 @@ h1 {
 
 .container__cars {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) ;
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
+  gap: 2.3rem;
   text-align: center;
   padding: 5px 20px;
-  
+}
+
+.content__cars h1 {
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 60px;
+ 
 }
 
 .content__img-section {
@@ -166,14 +172,14 @@ h1 {
 .footer__page {
   display: flex;
   justify-content: space-evenly;
-  padding: 10px 0;
+  align-items: center;
+  padding: 8px 0;
 }
 
 .content__item-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
+   display: flex;
+   gap: 1.5rem;
+  
 }
 
 .icons {
@@ -185,11 +191,10 @@ h1 {
 }
 
 .line__vertical{ 
-  
-  border:         none;
-  border-left:    1px solid hsla(200, 10%, 50%,100);
-  height:      100px   ;
-  width:          1px;       
+  border: none;
+  border-left: 1px solid hsla(200, 10%, 50%,100);
+  height: 80px;
+  width: 1px;       
 }
 
 .text__input {
@@ -231,4 +236,30 @@ h1 {
 .img__contacto {
   width: 100%;
   border-radius: 15px;
+}
+
+@media (max-width: 850px) {
+  .container__modal {
+    flex-direction: column;
+  }
+
+  .modal__financiacion {
+    max-width: 230px;
+    max-height: 230px;
+    gap: 0.5rem;
+  }
+
+  .footer__page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .line__vertical {
+    display: none;
+  }
+  
+  
 }

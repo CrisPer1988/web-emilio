@@ -66,7 +66,7 @@ const SectionCars = () => {
     // ]
 
   return (
-    <div>
+    <div className='content__cars'>
         <h1>Autos disponibles</h1>
     
     <div className='container__cars'>

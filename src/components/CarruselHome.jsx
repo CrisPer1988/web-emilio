@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import '../index.css'
+import { NavLink } from 'react-bootstrap';
 
 const CarruselHome = () => {
   return (
@@ -21,8 +22,8 @@ const CarruselHome = () => {
         />
       </Carousel.Item>
     </Carousel>
-    <i class='bx bxl-whatsapp whatapp__fixed'></i>
-    
+    <NavLink href="https://wa.me/5493412842417" target='_blank' ><i class='bx bxl-whatsapp whatapp__fixed'></i></NavLink>
+   
     </div>
   )
 }
