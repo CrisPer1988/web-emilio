@@ -1,0 +1,234 @@
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*{
+  color:#f9f9f9;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.App {
+  background-color: #242424;
+}
+
+.carrusellll {
+
+}
+
+.whatapp__fixed {
+  font-size: 3rem;
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  z-index: 2000;
+  color: rgb(255, 255, 255);
+  background-color: rgb(39, 204, 10);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.whatapp__fixed:hover {
+  cursor: pointer;
+  animation: rotate 0.5s;
+}
+
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(-360deg);}
+  
+}
+
+.container__cars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) ;
+  gap: 1.5rem;
+  text-align: center;
+  padding: 5px 20px;
+  
+}
+
+.content__img-section {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+  background-color: white;
+  transition: border-radius 0.5s ;
+  display: flex;
+}
+
+.content__img-section:hover {
+  border-radius: 150px; 
+
+
+}
+
+
+.img__section {
+  border-radius: 15px;
+  transition: border-radius 0.5s;
+  width:100%;
+  
+}
+
+
+
+.content__btn-section {
+  display:flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 10px;
+}
+
+.container__modal {
+  display: flex;
+  background-color: #24242463;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(2px);
+  position: absolute;
+  z-index: 8000;
+}
+
+.modal__financiacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  gap: 2rem;
+  max-width: 600px;
+  max-height: 600px;
+  padding: 60px;
+  background-color: #242424;
+  color: rgb(255, 94, 0);
+  font-weight: bold;
+  font-size: 1.8rem;
+  border: 10px solid rgba(255, 20, 20, 0.498);
+  margin: auto;
+  box-shadow: 20px 10px 10px rgb(34, 34, 33);  
+  top: 10%;
+  left: 33%;
+  z-index: 10;
+  transition: all 0.8s;
+  animation: giro 1s infinite;
+}
+
+.modal__financiacion a {
+  font-size: 1.3rem;
+}
+
+
+
+@keyframes giro {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+    
+  }
+  100% {
+    transform: scale(1);
+    
+  }
+  
+}
+
+.content__item-financiacion {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  
+  border-radius: 50%;
+}
+
+.footer__page {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+.content__item-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.icons {
+  font-size: 2.5rem;
+}
+
+.text__name {
+  font-size: 1.5rem;
+}
+
+.line__vertical{ 
+  
+  border:         none;
+  border-left:    1px solid hsla(200, 10%, 50%,100);
+  height:      100px   ;
+  width:          1px;       
+}
+
+.text__input {
+  color: black;
+}
+
+.btn__form {
+  color: black;
+}
+
+.container__form {
+  padding-top: 50px;
+}
+
+.form__contact {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid rgb(159, 159, 159);
+  border-radius: 15px;
+  padding: 80px 30px;
+}
+
+.item__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__contact button {
+  margin-top: 10px;
+  border: none;
+}
+
+.content__img {
+  padding: 50px 30px;
+}
+
+.img__contacto {
+  width: 100%;
+  border-radius: 15px;
+}
