@@ -8,7 +8,9 @@ const ContactForm = () => {
   }
   return (
     <div className="container__form">
+      
     <form className="form__contact" onSubmit={handleSubmit}>
+    <h2>Contacto</h2>
 <div className="item__form">
 <label htmlFor="name">
       Nombre
