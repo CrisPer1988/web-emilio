@@ -14,7 +14,7 @@ const SectionCars = () => {
     const cars = [
         {
             id: 1,
-            img: "/images/banner_66.png",
+            img: "/images/c3.png",
             description: "Nuevo C3",
             fichaTecnica: "/images/2302_FT_C3_LOOK.pdf"
         },
