@@ -5,7 +5,7 @@ import { NavLink } from 'react-bootstrap';
 
 const CarruselHome = () => {
   return (
-    <div className='carrusellll'>
+    <div id='home' className='carrusellll'>
     <Carousel fade>
       <Carousel.Item>
         <img

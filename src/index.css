@@ -27,6 +27,7 @@ h1 {
 
 .App {
   background-color: #242424;
+  padding-top: 50px;
 }
 
 .carrusellll {
@@ -59,9 +60,9 @@ h1 {
 .container__cars {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) ;
-  gap: 2.3rem;
+  gap: 3rem;
   text-align: center;
-  padding: 5px 20px;
+  padding: 5px 30px;
 }
 
 .content__cars h1 {
@@ -72,25 +73,28 @@ h1 {
 }
 
 .content__img-section {
-  width: 100%;
-  height: 200px;
+  /* width: 100%; */
+  /* height: 200px; */
   border-radius: 15px;
   background-color: white;
   transition: border-radius 0.5s ;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
 .content__img-section:hover {
   border-radius: 150px; 
-
-
 }
 
 
 .img__section {
   border-radius: 15px;
   transition: border-radius 0.5s;
-  width:100%;
+   /* width:100%;  */
+  height: 210px;
+  
   
 }
 
@@ -109,7 +113,8 @@ h1 {
   width: 100%;
   height: 100vh;
   backdrop-filter: blur(2px);
-  position: absolute;
+  position: fixed;
+  top: 0;
   z-index: 8000;
 }
 
@@ -203,6 +208,11 @@ h1 {
 
 .btn__form {
   color: black;
+  height: 30px;
+  width: 50%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 15px;
 }
 
 .container__form {

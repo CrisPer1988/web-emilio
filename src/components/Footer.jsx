@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <hr className='line__vertical'/>
         <div>
-            <h3>Emilio Reinoso</h3>
+            <h3>Emilio Reynoso</h3>
         <div className='content__item-footer'>
             <i class='bx bx-user icons'><span className='text__name'>Asesor Oficial Citroen</span></i>
                

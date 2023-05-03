@@ -7,7 +7,7 @@ const ContactForm = () => {
       return <p>Gracias por contactarte, te respondere a la brevedad!</p>;
   }
   return (
-    <div className="container__form">
+    <div id="contacto" className="container__form">
       
     <form className="form__contact" onSubmit={handleSubmit}>
     <h2>Contacto</h2>

@@ -21,26 +21,26 @@ const SectionCars = () => {
         {
             id: 2,
             img: "/images/banner_33-removebg-preview.png",
-            description: "Multi-space",
-            fichaTecnica: "/images/2302_FT_C3_LOOK.pdf"
+            description: "Berlingo Multispace xtr",
+            fichaTecnica: "/images/berlingo-multispace.pdf"
         },
         {
             id: 3,
             img: "/images/banner_34-removebg-preview.png",
-            description: "multi-space 2",
-            fichaTecnica: "/images/2302_FT_C3_LOOK.pdf"
+            description: "Berlingo Furgon",
+            fichaTecnica: "/images/berlingo-furgon.pdf"
         },
         {
             id: 5,
             img: "/images/c4-removebg-preview.png",
-            description: "Nuevo C4",
-            fichaTecnica: "/images/2302_FT_C3_LOOK.pdf"
+            description: "Nuevo C4 2023",
+            fichaTecnica: "/images/c4look.pdf"
         },
         {
             id: 6,
             img: "/images/c4cactus-removebg-preview.png",
-            description: "C4 Cactus",
-            fichaTecnica: "/images/2302_FT_C3_LOOK.pdf"
+            description: "Nuevo C4 2023",
+            fichaTecnica: "/images/c4cactus.pdf"
         }
     ]
 
@@ -66,8 +66,8 @@ const SectionCars = () => {
     // ]
 
   return (
-    <div className='content__cars'>
-        <h1>Autos disponibles</h1>
+    <div id='sectionCars' className='content__cars'>
+        <h1>Unidades Disponibles</h1>
     
     <div className='container__cars'>
 
