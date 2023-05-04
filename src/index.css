@@ -172,7 +172,16 @@ h1 {
 
 .content__videos {
   padding: 50px;
+  display: grid;
+  gap: 1.5rem;
+}
 
+.video__autos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  text-align: center;
+  
 }
 
 .footer__page {
@@ -218,8 +227,6 @@ h1 {
 
 .container__form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-
   padding-top: 50px;
 }
 
@@ -278,13 +285,26 @@ h1 {
   }
   
   .container__form {
-    gap: 1rem;
-    grid-template-columns: 1fr ;
+    /* gap: 1rem;
+    grid-template-columns: 1fr ; */
   }
 
   .content__videos {
     padding: 0;
-  
+   
+  }
+
+  .video__autos {
+    padding-top: 30px;
+    grid-template-columns:  1fr;
+    gap: 1rem;
+    
+  }
+
+  .content__videos {
+    padding: 0px;
+    display: grid;
+    gap: 0;
   }
   
 }

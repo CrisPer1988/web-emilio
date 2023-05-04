@@ -88,15 +88,7 @@ className="text__input"
       Enviar
     </button>
   </form>
-  <div className="content__video-emilio">
-  <ReactPlayer className= "react-player"
-                width='100%'
-                controls
-                loop
-                height='90vh'
-                  url="/images/video-emilio.mp4"
-                />
-  </div>
+  
 
   </div>
   );
