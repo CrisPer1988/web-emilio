@@ -181,7 +181,21 @@ h1 {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   text-align: center;
-  
+}
+
+.video__autos span {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 4, 8);
+  padding: 5px;
+  border-radius: 15px;
+  overflow: hidden;
+  font-size: 1rem;
+  margin-left: 10px;
+  font-family:fantasy;
+}
+
+br {
+  display: none;
 }
 
 .footer__page {
@@ -305,6 +319,10 @@ h1 {
     padding: 0px;
     display: grid;
     gap: 0;
+  }
+
+  br {
+    display: block;
   }
   
 }

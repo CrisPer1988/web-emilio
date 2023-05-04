@@ -6,7 +6,7 @@ const SeccionVideos = () => {
     <div className='content__videos'>
         <div className='video__autos'>
             <div>
-            <h3>Nuevo C3 Aircross</h3>
+            <h3>Nuevo C3 Aircross<br /><span>Preventa Exclusiva</span> </h3>
         <ReactPlayer
                 width='100%'
                 height="auto"
