@@ -170,6 +170,11 @@ h1 {
   border-radius: 50%;
 }
 
+.content__videos {
+  padding: 50px;
+
+}
+
 .footer__page {
   display: flex;
   justify-content: space-evenly;
@@ -212,8 +217,13 @@ h1 {
 }
 
 .container__form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
   padding-top: 50px;
 }
+
+
 
 .form__contact {
   display: flex;
@@ -267,5 +277,14 @@ h1 {
     display: none;
   }
   
+  .container__form {
+    gap: 1rem;
+    grid-template-columns: 1fr ;
+  }
+
+  .content__videos {
+    padding: 0;
+  
+  }
   
 }

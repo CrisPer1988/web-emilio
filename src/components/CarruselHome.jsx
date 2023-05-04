@@ -2,10 +2,12 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import '../index.css'
 import { NavLink } from 'react-bootstrap';
+import ReactPlayer from "react-player"
 
 const CarruselHome = () => {
   return (
     <div id='home' className='carrusellll'>
+
     <Carousel fade>
       <Carousel.Item>
         <img
