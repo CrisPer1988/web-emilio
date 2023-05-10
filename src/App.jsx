@@ -7,6 +7,7 @@ import SectionCars from './components/SectionCars'
 import Footer from './components/Footer'
 import ContactForm from './components/ContactForm'
 import SeccionVideos from './components/SeccionVideos'
+import Promociones from './components/Promociones'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
     <CarruselHome />
     {/* </div> */}
     <SectionCars />
+    <Promociones />
     <SeccionVideos />
     <ContactForm />
     <hr />

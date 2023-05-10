@@ -13,6 +13,8 @@ const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#sectionCars">Unidades</Nav.Link>
+            <Nav.Link href="#promociones">Promociones</Nav.Link>
+            <Nav.Link href="#videos">Videos</Nav.Link>
             <Nav.Link href="#contacto">Contacto</Nav.Link>
             {/* <Nav.Link href="#link">Promociones</Nav.Link>
             <Nav.Link href="#link">Contacto</Nav.Link> */}

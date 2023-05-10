@@ -25,13 +25,19 @@ h1 {
   line-height: 1.1;
 }
 
+
+
 .App {
   background-color: #242424;
   padding-top: 50px;
 }
 
+/* .img__home {
+  object-fit: cover;
+} */
+
 .whatapp__fixed {
-  font-size: 3rem;
+  font-size: 2.5rem;
   position: fixed;
   bottom: 30px;
   right: 50px;
@@ -213,6 +219,12 @@ br {
 
 .icons {
   font-size: 2.5rem;
+  transition: transform 0.5s;
+}
+
+.icons:hover {
+  transform: scale(1.05);
+  color: rgb(40, 193, 40);
 }
 
 .text__name {
@@ -275,6 +287,27 @@ br {
   border-radius: 15px;
 }
 
+.content__promociones  {
+  padding: 50px;
+  text-align: center;
+  
+  
+}
+
+.container__promociones {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  width: 100%;
+  
+}
+
+.container__promociones img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+}
+
 @media (max-width: 850px) {
   .container__modal {
     flex-direction: column;
@@ -323,6 +356,16 @@ br {
 
   br {
     display: block;
+  }
+
+  .container__promociones {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 50px 5px;
+    
+    
   }
   
 }

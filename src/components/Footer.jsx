@@ -8,7 +8,7 @@ const Footer = () => {
             <h3>Mis redes</h3>
         <div className='content__item-footer'>
             <i class='bx bxl-facebook icons'></i>
-            <i class='bx bxl-whatsapp icons'></i>
+           <a href="https://wa.me/5493412842417" target='_blank'><i class='bx bxl-whatsapp icons'></i></a> 
         </div>
         </div>
         <hr className='line__vertical'/>

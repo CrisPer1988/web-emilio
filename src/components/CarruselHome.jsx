@@ -11,14 +11,14 @@ const CarruselHome = () => {
     <Carousel fade>
       <Carousel.Item>
         <img
-          className="d-block w-100 img__home"
+          className="d-block w-100"
           src="/images/c3.png"
           alt="Third slide"
         />
       </Carousel.Item> 
       <Carousel.Item >
         <img
-          className="d-block w-100  img__home"
+          className="d-block w-100"
           src="/images/c4.png"
           alt="Second slide"
         />

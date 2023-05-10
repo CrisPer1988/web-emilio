@@ -3,7 +3,7 @@ import ReactPlayer from "react-player"
 
 const SeccionVideos = () => {
   return (
-    <div className='content__videos'>
+    <div id='videos' className='content__videos'>
         <div className='video__autos'>
             <div>
             <h3>Nuevo C3 Aircross<br /><span>Preventa Exclusiva</span> </h3>
